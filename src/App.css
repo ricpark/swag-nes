@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  font-family: PressStart2P, sans-serif;
+  background-color: #FFC0CB;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -13,16 +14,13 @@
   }
 }
 
-.App-header {
-  background-color: #FFC0CB;
+.App-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: PressStart2P, sans-serif;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /*font-size: calc(8px + 2vmin);*/
 }
 
 .App-link {
